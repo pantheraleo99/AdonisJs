@@ -6,6 +6,7 @@ export default class BaseValidator {
           },
           required: '{{ field }} is required',
           number:'EmpId||OrgId can only contain Number type Value!',
+          
          
         }
 }

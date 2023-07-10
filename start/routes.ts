@@ -18,6 +18,12 @@
 |
 */
 
-import Route from '@ioc:Adonis/Core/Route'
+ import Route from '@ioc:Adonis/Core/Route'
+ import './routesTwo'
 
-Route.get('/getSet','GetSetKioskPinsController.getSetKioskPin')
+ Route.get('/getSet','GetSetKioskPinsController.getSetKioskPin').name='route';
+ Route.get('/setQrKioskPin','setQrKioskPinController.setQrKioskPin').name='setQrKioskPin';
+
+// Route.get('/users/:id', 'UserController.show').as('user').name('user')
+
+
